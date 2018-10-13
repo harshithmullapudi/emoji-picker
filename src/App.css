@@ -1,0 +1,98 @@
+.root {
+  margin: auto;
+  width: 60rem;
+  height: 40rem;
+  display: flex;
+  box-shadow: 0 3px 15px #ccc;
+  margin-top: 2rem;
+}
+
+.app__sidebar {
+  width: 25%;
+  background-color: #4d394b;
+}
+
+.app__chat-block {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  overflow: scroll;
+  width: 75%;
+}
+.app__chat-block-header {
+  padding: 1rem;
+  font-size: 15px;
+  text-align: left;
+  height: 5%;
+  color: #333;
+  border-bottom: 1px solid #bbb;
+}
+
+.app___message-block {
+  padding: 1rem;
+}
+
+.app__messages-block {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem 1rem 0rem 1rem;
+  max-height: 460px;
+  overflow: auto;
+}
+
+.app__message {
+  padding: 0.5rem;
+  padding-left: 1rem;
+}
+
+.app__emoji-popup {
+  margin: 1rem 1rem 0rem 1rem;
+  border-radius: 10px;
+  border: 1px solid rgb(207, 207, 207);
+  box-sizing: border-box;
+}
+
+.app__emoji-popup-header {
+  border-radius: 10px 10px 0px 0px;
+  padding: 8px;
+  background-color: rgb(238, 238, 238);
+  border-bottom: 1px solid #bbb;
+}
+
+.app__emoji-popup-body {
+  padding: 1rem;
+}
+.app__emoji-select-button {
+  background-color: white;
+  border: 0;
+  padding: 0px 10px 4px;
+  margin: 2px 2px;
+  font-size: 14px;
+  border-radius: 30px;
+}
+.app__emoji-select-button:hover,
+.app__emoji-select-button:focus {
+  background-color: rgb(62, 166, 250);
+  outline: 0;
+  color: white;
+}
+
+.app__message-box {
+  margin-bottom: 1rem;
+  padding: 0rem 1rem 1rem 1rem;
+  height: 5%;
+}
+
+.app__message-box-input > div {
+  margin: 10px 10px 10px 10px;
+}
+
+.app__message-box-input input {
+  border-radius: 4px;
+  border: 1px solid #bbb;
+  box-sizing: border-box;
+  font-size: 18px;
+  padding: 10px 8px;
+  outline: 0;
+  width: 100%;
+}

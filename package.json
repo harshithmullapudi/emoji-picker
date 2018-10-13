@@ -1,0 +1,26 @@
+{
+  "name": "task",
+  "version": "0.1.0",
+  "author": "hackकर",
+  "private": true,
+  "dependencies": {
+    "cors": "^2.8.4",
+    "express": "^4.16.3",
+    "jest-cli": "^23.4.2",
+    "react": "^16.4.1",
+    "react-dom": "^16.4.1",
+    "react-scripts": "1.1.4"
+  },
+  "scripts": {
+    "task1:test": "jest --env=node ./tests/search.test.js",
+    "task2:test": "jest --env=node ./tests/api.test.js",
+    "task3:test": "cypress open",
+    "task2:start": "node ./src/server.js",
+    "task3:start": "cross-env PORT=3001 react-scripts start"
+  },
+  "devDependencies": {
+    "cross-env": "^5.2.0",
+    "cypress": "^3.0.3",
+    "supertest": "^3.1.0"
+  }
+}
